@@ -1,0 +1,21 @@
+{
+    "name": "revooms/faker-provider-profession",
+    "description": "Provides professions for Faker",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "revooms",
+            "email": "revooms@users.noreply.github.com"
+        }
+    ],
+    "keywords": ["faker", "provider", "profession"],
+    "require": {
+        "fzaninotto/faker": "~1.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faker\\Provider\\": "src/"
+        }
+    }
+}
